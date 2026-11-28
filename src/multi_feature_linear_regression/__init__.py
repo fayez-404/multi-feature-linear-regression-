@@ -20,7 +20,7 @@ def cost_function(weights,features:pd.DataFrame,target,b):
     result = features.to_numpy() @ weights - target.to_numpy() + b
     return np.sum(result ** 2)/(2*len(target))
 
-def gradient_decent(features:pd.DataFrame,target:pd.Series,iterations:int,learning_rate:float):
+def gradient_descent(features:pd.DataFrame,target:pd.Series,iterations:int,learning_rate:float):
     weights = np.zeros(shape=(len(features.columns),1))
     b = 0 
     normalized_features = normalizing_features(features)
