@@ -16,6 +16,13 @@ The target variable is **Goals**.
 
 Before training, numerical features and the target values are standardized using Z-score normalization.
 
+## Results
+
+<img width="1799" height="879" alt="Figure_1" src="https://github.com/user-attachments/assets/1bdf56ff-1c5c-4f4e-8598-4c1481d194eb" />
+
+The plot compares the actual goals with the model's predictions
+for the first 51 players
+
 ## How It Works
 
 ### 1. Feature Normalization
